@@ -312,7 +312,7 @@ The default behavior strips the script content shown below (`sanitize-html` tag 
     <a href="javascript: alert('Gotcha! javascript: executed.');">Malicious Link</a>
     
     <script>
-        alert("GOTHCHA! Injected code executed.")
+        alert("GOTCHA! Injected code executed.")
     </script>
     
     <div class="alert alert-info" onmouseover="alert('Gotcha! onclick handler fired');">
